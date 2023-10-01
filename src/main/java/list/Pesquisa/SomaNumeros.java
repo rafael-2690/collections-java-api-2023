@@ -1,12 +1,14 @@
 package main.java.list.Pesquisa;
 
+import main.java.list.Ordenacao.OrdenacaoNumero;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class OrdenacaodeNumeros {
+public class SomaNumeros {
     private List<Integer> listaNumeros;
 
-    public OrdenacaodeNumeros() {
+    public SomaNumeros() {
         this.listaNumeros = new ArrayList<>();
     }
 
@@ -47,7 +49,7 @@ public class OrdenacaodeNumeros {
     }
 
     public static void main(String[] args) {
-        OrdenacaodeNumeros ordenacaodeNumeros = new OrdenacaodeNumeros();
+        SomaNumeros ordenacaodeNumeros = new SomaNumeros();
 
         ordenacaodeNumeros.adicionarNumero(20);
         ordenacaodeNumeros.adicionarNumero(302);
